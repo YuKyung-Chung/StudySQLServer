@@ -3,5 +3,5 @@ SELECT memberID, memberName
 	WHERE memberID = 'Dang';
 --SELECT productName, cost, company FROM productTBL;
 
-INSERT INT() memberTBL
+INSERT INTO memberTBL
 VALUES ('Bang','방문식','부산시 진구');
