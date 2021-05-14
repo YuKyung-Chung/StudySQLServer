@@ -5,5 +5,7 @@ SELECT * FROM ClubTbl;
 
 SELECT s.StdID, s.StdName, s.Region
 FROM StdTbl AS s
+INNER JOIN RegInfoTbl AS r
+ON s.StdID = r.StdID
 INNER JOIN ClubTbl AS c
-ON s.StdID = r.StdID;
+ON c.ClubName = r.ClubName
